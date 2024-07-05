@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "54796147-d31c-4ec5-947e-2c464ce2ab95",
+		"name": "library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34535596"
+	},
+	"item": [
+		{
+			"name": "book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"content\":\"italian foot ball club\",\r\n   \"publishedDate\":\"1997-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/book/deleteBook/6688095aeec0879aef828585",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"book",
+						"deleteBook",
+						"6688095aeec0879aef828585"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "author",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/author/deleteAuthor/6688355572cc4b00c6c1b80f",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"author",
+						"deleteAuthor",
+						"6688355572cc4b00c6c1b80f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
